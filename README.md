@@ -4,6 +4,11 @@ A portfolio of Python projects in fixed-income pricing, yield-curve risk, PCA he
 
 The repositories extend a course-provided quantitative-finance framework with numerical methods, product models, valuation engines, market-risk analytics, and notebook-based validation. Each linked project identifies my implementation work separately from the shared course infrastructure.
 
+## Highlights
+
+- Extended a course-provided modular fixed-income analytics library with SOFR/Fed Funds basis swaps and RFR caplet/cap products; calculated PV, cash flows, par spreads, PV01, and first-order curve and SABR sensitivities, validating analytic risk against bump-and-revalue results.
+- Implemented Black-76, Bachelier, and SABR volatility analytics plus NumPy-based PCA hedging across 1Y–30Y swap rates; extracted three principal factors explaining over 99% of sample variation and constructed factor-neutral hedge notionals using least squares.
+
 ## Quantitative Workflow
 
 ```mermaid
@@ -76,4 +81,4 @@ The notebooks emphasize numerical verification rather than isolated formula impl
 
 These projects were developed for NYU FRE-GY 9743 using a course-provided `FixedIncomeLib` architecture. Shared framework components remain credited to their original contributors. Each repository's **My Contributions** section describes the extensions and analytics I implemented.
 
-For a project-by-project technical summary, see [PROJECTS.md](PROJECTS.md). A concise resume version is available in [CV_PROJECT_SUMMARY.md](CV_PROJECT_SUMMARY.md).
+For a project-by-project technical summary, see [PROJECTS.md](PROJECTS.md).
